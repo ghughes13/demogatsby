@@ -30,10 +30,10 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        baseUrl: `https://gatsbyblogtest.wpengine.com/`,
-        protocol: `https`,
-        hostingWPCOM: false,
-        useACF: true,
+        baseUrl: `https://YOURWORDPRESSBLOGURL.com/`, //Switch out for your wordpress blog
+        protocol: `https`, //https or http
+        hostingWPCOM: false, //Is the site on wordpress.com
+        useACF: true, //Is the site using 'advanced custom fields'
       },
     },
   ],
