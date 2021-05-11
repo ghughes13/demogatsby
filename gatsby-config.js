@@ -27,14 +27,5 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-source-wordpress`,
-      options: {
-        baseUrl: `https://YOURWORDPRESSBLOGURL.com/`, //Switch out for your wordpress blog
-        protocol: `https`, //https or http
-        hostingWPCOM: false, //Is the site on wordpress.com
-        useACF: true, //Is the site using 'advanced custom fields'
-      },
-    },
   ],
 }
